@@ -29,6 +29,6 @@ A hands-on journey through Python Object-Oriented Programming (OOP) concepts, bu
 
 ---
 
-### ⚡ Status
-* **Imposter Syndrome:** Defeated.
-* **Code State:** Executing flawlessly.
+## ⚡ Status
+* **Imposter Syndrome:** 𝒟𝑒𝒻𝑒𝒶𝓉𝑒𝒹.
+* **Code State:** 𝐸𝓍𝑒𝒸𝓊𝓉𝒾𝓃𝑔 𝒻𝓁𝒶𝓌𝓁𝑒𝓈𝓈𝓁𝓎.
