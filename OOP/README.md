@@ -27,6 +27,14 @@ A hands-on journey through Python Object-Oriented Programming (OOP) concepts, bu
   * Built specialized `SeniorDoctor` and `JuniorDoctor` subclasses using `super().__init__()`.
   * Managed team relationships by dynamically adding, removing, and listing assigned doctors in Python lists.
 
+* **`program45.py` — Dunder (Magic) Methods**
+   * Used dunder methods like  `__add__ ` , `__repr__` to the class 
+   * dunder methods vanish the traditional function defining code to use built in python function with ease
+   * These methods allow custom classes to define and control how they behave with Python's built-in operators, functions, and syntax.
+
+* **`MagicMethod.txt` — includes other magic methods**
+   *there's a lot of magic methods in python some of em are included here without any agony
+
 ---
 
 ## ⚡ Status
