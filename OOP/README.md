@@ -33,7 +33,7 @@ A hands-on journey through Python Object-Oriented Programming (OOP) concepts, bu
    * These methods allow custom classes to define and control how they behave with Python's built-in operators, functions, and syntax.
 
 * **`MagicMethod.txt` — includes other magic methods**
-   *there's a lot of magic methods in python some of em are included here without any agony
+   * there's a lot of magic methods in python some of em are included here without any agony
 
 ---
 
