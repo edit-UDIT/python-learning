@@ -1,1 +1,68 @@
+ython Dunder Methods Reference
+Object Initialization & Destruction
 
+__init__(self, ...): Initializes instance attributes after object creation.
+
+__new__(cls, ...): Creates and returns a new raw object instance before __init__ runs.
+
+__del__(self): Called when an instance is about to be destroyed/garbage collected.
+
+String & Object Representation
+
+__str__(self): Returns an informal, end-user-friendly string representation (print(obj)).
+
+__repr__(self): Returns an official, developer-oriented string representation for debugging (repr(obj)).
+
+__bool__(self): Defines truthiness when evaluated in boolean contexts like if obj:.
+
+__format__(self, format_spec): Customizes how objects format inside f-strings and .format().
+
+Comparison Operators
+
+__eq__(self, other): Triggers on equality ==.
+
+__ne__(self, other): Triggers on inequality !=.
+
+__lt__(self, other): Triggers on less-than <.
+
+__gt__(self, other): Triggers on greater-than >.
+
+__le__(self, other): Triggers on less-than-or-equal <=.
+
+__ge__(self, other): Triggers on greater-than-or-equal >=.
+
+Arithmetic & Assignment Operators
+
+__add__(self, other): Handles addition +.
+
+__sub__(self, other): Handles subtraction -.
+
+__mul__(self, other): Handles multiplication *.
+
+__truediv__(self, other): Handles standard division /.
+
+__floordiv__(self, other): Handles integer division //.
+
+__mod__(self, other): Handles modulo %.
+
+__iadd__(self, other): Handles in-place addition +=.
+
+Container & Sequence Behaviors
+
+__len__(self): Returns collection size when len(obj) is called.
+
+__getitem__(self, key): Enables index/key reading via obj[key].
+
+__setitem__(self, key, value): Enables index/key writing via obj[key] = value.
+
+__delitem__(self, key): Enables element deletion via del obj[key].
+
+__contains__(self, item): Enables membership checks using item in obj.
+
+Callable & Context Managers
+
+__call__(self, ...): Allows invoking the instance directly like a function (obj()).
+
+__enter__(self): Executes setup operations when starting a with block.
+
+__exit__(self, exc_type, exc_val, exc_tb): Executes cleanup operations when leaving a with block.
