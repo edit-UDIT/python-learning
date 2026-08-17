@@ -27,10 +27,17 @@ A hands-on journey through Python Object-Oriented Programming (OOP) concepts, bu
   * Built specialized `SeniorDoctor` and `JuniorDoctor` subclasses using `super().__init__()`.
   * Managed team relationships by dynamically adding, removing, and listing assigned doctors in Python lists.
 
-* **`program45.py` — Dunder (Magic) Methods**
+* **`program5.py` — Dunder (Magic) Methods**
    * Used dunder methods like  `__add__ ` , `__repr__` to the class 
    * dunder methods vanish the traditional function defining code to use built in python function with ease
    * These methods allow custom classes to define and control how they behave with Python's built-in operators, functions, and syntax.
+
+* **`program6.py` — Property, getter/setter/deleter**
+   * With the help of `getter methods` , we can access and retrieve internally stored values through properties.
+   * With `setter methods` , we can control what values are assigned to an attribute and validate them before storing them
+   * Used `@property` to make methods behave like normal attributes while keeping control over how those attributes are accessed and modified.
+   * Also explored attribute validation, internal variables such as `_pay` and `_age`, and how properties can make objects safer and cleaner to work with.
+ 
 
 * **`MagicMethod.txt` — includes other magic methods**
    * there's a lot of magic methods in python some of em are included here without any agony
