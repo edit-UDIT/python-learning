@@ -2,7 +2,7 @@
 #With the help of getter methods, we can access and retrieve the value of an attribute through a property while keeping the actual stored value internally 
 #With setter methods, we can control what values are assigned to an attribute and validate them before storing.
 #OOPs i actually went high on this :3
-
+ 
 class Doctor: 
 
     raise_amount = 1.07
